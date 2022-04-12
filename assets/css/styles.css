@@ -84,3 +84,27 @@ ul {
 .link-list__item {
     display: inline-block;
 }
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+}
+  
+.navbar .media li {
+    display: inline-block;
+    padding-left: 30px;
+}
+  
+.navbar .media li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+.navbar .menu i {
+    padding-right: 20px;
+}
