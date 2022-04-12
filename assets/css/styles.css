@@ -1,0 +1,28 @@
+/* FONTS
+=========================== */
+@font-face {
+    font-family: 'assc';
+    src: url('./fonts/assc.ttf');
+}
+  
+  
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+  
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'assc';
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+  
+ul {
+    list-style: none;
+}
